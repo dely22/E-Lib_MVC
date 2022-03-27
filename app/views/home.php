@@ -23,30 +23,23 @@
   <!-- header section starts  -->
   <header class="header">
     <nav class="navbar" class="">
-      <a href="#" onclick="document.getElementById('idlogin').style.display='block'"><img src="img/svg/svgexport-1.svg" class="nav_icon" /> ادخل لحسابك أو
+      <a href="#" onclick="document.getElementById('idlogin').style.display='block'"><app/public/img src="app/public/img/svg/svgexport-1.svg" class="nav_icon" /> ادخل لحسابك أو
         سجل الآن</a>
-      <a href="#"><img src="RewriteEngine On
-
-RewriteCond %{REQUEST_FILE_NAME} !/(css|fonts|js)/
-RewriteCond %{REQUEST_FILE_NAME} !-d
-RewriteCond %{REQUEST_FILE_NAME} !-f
-
-RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
-/img/svg/svgexport-2.svg" class="nav_icon" />الرئيسية</a>
-      <a href="#"><img src="img/svg/svgexport-3.svg" class="nav_icon" />من نحن</a>
-      <a href="#"><img src="img/svg/svgexport-4.svg" class="nav_icon" />اتصل بنا</a>
-      <a href="#"><img src="img/svg/svgexport-5.svg" class="nav_icon" /> المساعدة</a>
-      <a href="#"><img src="img/svg/svgexport-11.svg" class="nav_icon" />سياسة
+      <a href="#"><app/public/img src="app/public/app/public/img/svg/svgexport-2.svg" class="nav_icon" />الرئيسية</a>
+      <a href="#"><app/public/img src="app/public/img/svg/svgexport-3.svg" class="nav_icon" />من نحن</a>
+      <a href="#"><app/public/img src="app/public/img/svg/svgexport-4.svg" class="nav_icon" />اتصل بنا</a>
+      <a href="#"><app/public/img src="app/public/img/svg/svgexport-5.svg" class="nav_icon" /> المساعدة</a>
+      <a href="#"><app/public/img src="app/public/img/svg/svgexport-11.svg" class="nav_icon" />سياسة
         الخصوصية</a>
-      <a href="#"><img src="img/svg/svgexport-12.svg" class="nav_icon" /> اليمن YER
+      <a href="#"><app/public/img src="app/public/img/svg/svgexport-12.svg" class="nav_icon" /> اليمن YER
       </a>
-      <a href="#" id='switch_lang' onclick="switchrow">English<img src="img/svg/svgexport-14.svg" class="nav_icon" /></a>
+      <a href="#" id='switch_lang' onclick="switchrow">English<app/public/img src="app/public/img/svg/svgexport-14.svg" class="nav_icon" /></a>
     </nav>
     <!-- <div class="icons">
         <div id="menu-btn" class="fas fa-bars"></div>
       </div> -->
     <div class="lose">
-      <a href="#" class="logo"><img src="img/logo.PNG" alt="logo" /> </a>
+      <a href="#" class="logo"><app/public/img src="app/public/img/logo.PNG" alt="logo" /> </a>
       <form action="">
         <input type="search" id="search-bar" placeholder="البحث" />
         <label for="search-bar" class="fas fa-search"></label>
@@ -54,7 +47,7 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
       </form>
       <div class="iconShopping" id="">
         <button type="button" class="icon-button">
-          <a href="pages/checkout.html" class="fas fa-shopping-cart"></a>
+          <a href="/checkout" class="fas fa-shopping-cart"></a>
           <p id='cart-counter' class="icon-button__badge">0</p>
           <!-- icon noto end -->
       </div>
@@ -104,7 +97,7 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <input type="number" name="" placeholder="رقم الجوال" id="phone" />
           <select name="countryCode" id="countryCode">
             <option data- value="+970">+970</option>
-            <option style="background-image: url(img/svg/country.svg)">
+            <option style="background-image: url(app/public/img/svg/country.svg)">
               +970
             </option>
           </select>
@@ -134,7 +127,7 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
             لديك حساب؟
             <a style="color: blue; cursor: pointer;" onclick="document.getElementById('idsing').style.display='none'; 
                     document.getElementById('idlogin').style.display='block'">
-              تسجيل الدخول<img src="img/svg/svgexport-17.svg"> </a>
+              تسجيل الدخول<app/public/img src="app/public/img/svg/svgexport-17.svg"> </a>
 
           </p>
         </div>
@@ -150,19 +143,19 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
 
         <div class="mySlides fade">
 
-          <img src="img/slider_img2.jpg" style="width:100%">
+          <app/public/img src="app/public/img/slider_app/public/img2.jpg" style="width:100%">
 
         </div>
 
         <div class="mySlides fade">
 
-          <img src="img/slider_img.webp" style="width:100%">
+          <app/public/img src="app/public/img/slider_app/public/img.webp" style="width:100%">
 
         </div>
 
         <div class="mySlides fade">
 
-          <img src="img/slider_img3.jpg" style="width:100%">
+          <app/public/img src="app/public/img/slider_app/public/img3.jpg" style="width:100%">
 
         </div>
 
@@ -199,66 +192,66 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
     <section class="book-types">
       <h3 class="sec-title"> تصفح حسب القسم</h3>
       <div class="typ-container">
-        <img src="img/svg/rightArrow.svg" alt="" />
+        <app/public/img src="app/public/img/svg/rightArrow.svg" alt="" />
         <div class="section">
-          <img src="img/svg/svgexport-46.svg" alt="" />
+          <app/public/img src="app/public/img/svg/svgexport-46.svg" alt="" />
           <p style="color:hsl(355, 69%, 16%);font-size: 1.6rem; padding-top: 1rem;">دين</p>
         </div>
         <div class="section">
-          <img src="img/svg/svgexport-42.svg" alt="" />
+          <app/public/img src="app/public/img/svg/svgexport-42.svg" alt="" />
           <p style="color: #f67828;font-size: 1.6rem; padding-top: 1rem;">تاريخ</p>
         </div>
         <div class="section">
-          <img src="img/svg/svgexport-44.svg" alt="" />
+          <app/public/img src="app/public/img/svg/svgexport-44.svg" alt="" />
           <p style="color: #76689a;font-size: 1.6rem; padding-top: 1rem;">روايات</p>
         </div>
         <div class="section">
-          <img src="img/svg/svgexport-46.svg" alt="" />
+          <app/public/img src="app/public/img/svg/svgexport-46.svg" alt="" />
           <p style="color: #bc4077;font-size: 1.6rem; padding-top: 1rem;">سياسة</p>
         </div>
 
         <div class="section">
-          <img src="img/svg/svgexport-45.svg" alt="" />
+          <app/public/img src="app/public/img/svg/svgexport-45.svg" alt="" />
           <p style="color: #0089b6; font-size: 1.6rem; padding-top: 1rem;">اقتصاد</p>
         </div>
         <div class="section">
-          <img src="img/svg/svgexport-47.svg" alt="" />
+          <app/public/img src="app/public/img/svg/svgexport-47.svg" alt="" />
           <p style="color: #7db344;font-size: 1.6rem; padding-top: 1rem;">طبخ</p>
         </div>
         <div class="section">
-          <img src="img/svg/svgexport-48.svg" alt="" />
+          <app/public/img src="app/public/img/svg/svgexport-48.svg" alt="" />
           <p style="color: #9c223f;font-size: 1.6rem; padding-top: 1rem;">تربية</p>
         </div>
-        <img src="img/svg/rightArrow.svg" style="transform: rotateY(180deg)" alt="" />
+        <app/public/img src="app/public/img/svg/rightArrow.svg" style="transform: rotateY(180deg)" alt="" />
       </div>
     </section>
     <!-- galary -->
     <section class="galary">
       <div class="box">
-        <img src="img/slider_img.webp" alt="">
-        <img src="img/slider_img2.jpg" alt="">
-        <img src="img/slider_img3.jpg" alt="">
-        <img src="img/slider_img4.webp" alt="">
+        <app/public/img src="app/public/img/slider_app/public/img.webp" alt="">
+        <app/public/img src="app/public/img/slider_app/public/img2.jpg" alt="">
+        <app/public/img src="app/public/img/slider_app/public/img3.jpg" alt="">
+        <app/public/img src="app/public/img/slider_app/public/img4.webp" alt="">
       </div>
-      <img src="img/slider_img.webp" alt="">
+      <app/public/img src="app/public/img/slider_app/public/img.webp" alt="">
     </section>
 
     <!--   current-offers   -->
     <div class="current-offers">
       <div class="head">
         <p>العروض الحالية</p>
-        <a href="pages/category.html">عرض الكل</a>
+        <a href="/category">عرض الكل</a>
       </div>
       <div class="offers">
 
-        <img src="img/svg/rightArrow.svg" alt="" class="navgo" />
+        <app/public/img src="app/public/img/svg/rightArrow.svg" alt="" class="navgo" />
         <!-- ------ offer 1 ------ -->
         <div class="offer">
           <!-- -->
-          <a href="pages/detailes.html">
-            <img src="img/books/beYou.jpg" /></a>
+          <a href="/detailes">
+            <app/public/img src="app/public/img/books/beYou.jpg" /></a>
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
           <p class="title">كن انت (كتاب الكتروني)</p>
@@ -270,9 +263,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
           <span class="alert"> لم يتبقى الكثيرعلى العرض</span>
@@ -291,10 +284,10 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
         <!-- ------ offer 2 ------ -->
         <div class="offer">
           <!-- -->
-          <a href="pages/detailes.html">
-            <img src="img/books/beYou.jpg" /></a>
+          <a href="/detailes">
+            <app/public/img src="app/public/img/books/beYou.jpg" /></a>
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
           <p class="title">الثقة التامة بالنفس (كتاب الكتروني)</p>
@@ -304,9 +297,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           </div>
           <p class="other"></p>
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
           <span class="alert"> لم يتبقى الكثيرعلى العرض</span>
           <div class="counter-container">
@@ -322,11 +315,11 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
 
         <!-- ------ offer 3 ------ -->
         <div class="offer">
-          <a href="pages/detailes.html">
-            <img src="img/books/beYou.jpg" /></a>
+          <a href="/detailes">
+            <app/public/img src="app/public/img/books/beYou.jpg" /></a>
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -340,9 +333,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
           <span class="alert"> لم يتبقى الكثيرعلى العرض</span>
           <div class="counter-container">
@@ -358,11 +351,11 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
 
         <!-- ------ offer 4 ------ -->
         <div class="offer">
-          <a href="pages/detailes.html">
-            <img src="img/books/beYou.jpg" /></a>
+          <a href="/detailes">
+            <app/public/img src="app/public/img/books/beYou.jpg" /></a>
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -376,9 +369,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
           <span class="alert"> لم يتبقى الكثيرعلى العرض</span>
           <div class="counter-container">
@@ -394,11 +387,11 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
 
         <!-- ------ offer 5 ------ -->
         <div class="offer">
-          <a href="pages/detailes.html">
-            <img src="img/books/beYou.jpg" /></a>
+          <a href="/detailes">
+            <app/public/img src="app/public/img/books/beYou.jpg" /></a>
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -411,9 +404,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
 
           <p class="other"></p>
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
           <span class="alert"> لم يتبقى الكثيرعلى العرض</span>
           <div class="counter-container">
@@ -426,7 +419,7 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
             S <div id="seconds5"></div>
           </div>
         </div>
-        <img src="img/svg/rightArrow.svg" style="transform: rotateY(180deg)" alt="" class="navgo" />
+        <app/public/img src="app/public/img/svg/rightArrow.svg" style="transform: rotateY(180deg)" alt="" class="navgo" />
       </div>
 
     </div>
@@ -435,17 +428,17 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
     <div class="current-offers">
       <div class="head">
         <p>الكتب الدينية</p>
-        <a href="pages/category.html">عرض الكل</a>
+        <a href="/category">عرض الكل</a>
       </div>
 
       <div class="offers">
-        <img src="img/svg/rightArrow.svg" alt="" class="navgo" />
+        <app/public/img src="app/public/img/svg/rightArrow.svg" alt="" class="navgo" />
         <!-- ------ offer 1 ------ -->
         <div class="offer">
-          <a href="pages/detailes.html">
-            <img src="img/books/beYou.jpg" /></a>
+          <a href="/detailes">
+            <app/public/img src="app/public/img/books/beYou.jpg" /></a>
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
           <p class="title">كن انت (كتاب الكتروني)</p>
@@ -457,18 +450,18 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
         </div>
 
         <!-- ------ offer 2 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/fullSelfTrust.jpg" alt="" />
+          <app/public/img src="app/public/img/books/fullSelfTrust.jpg" alt="" />
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
           <p class="title">الثقة التامة بالنفس (كتاب الكتروني)</p>
@@ -478,9 +471,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           </div>
           <p class="other"></p>
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -488,10 +481,10 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
         <!-- ------ offer 3 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/karmaDiagnosis.jpg" alt="" />
+          <app/public/img src="app/public/img/books/karmaDiagnosis.jpg" alt="" />
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -505,19 +498,19 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
         </div>
 
         <!-- ------ offer 4 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/realConfidence.jpg" alt="" />
+          <app/public/img src="app/public/img/books/realConfidence.jpg" alt="" />
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -531,19 +524,19 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
         </div>
 
         <!-- ------ offer 5 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/yourNewSelf.jpg" alt="" />
+          <app/public/img src="app/public/img/books/yourNewSelf.jpg" alt="" />
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -556,12 +549,12 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
 
           <p class="other"></p>
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
         </div>
-        <img src="img/svg/rightArrow.svg" style="transform: rotateY(180deg)" alt="" class="navgo" />
+        <app/public/img src="app/public/img/svg/rightArrow.svg" style="transform: rotateY(180deg)" alt="" class="navgo" />
       </div>
 
     </div>
@@ -570,17 +563,17 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
     <div class="current-offers">
       <div class="head">
         <p>الكتب التاريخية</p>
-        <a href="pages/category.html">عرض الكل</a>
+        <a href="/category">عرض الكل</a>
       </div>
 
       <div class="offers">
-        <img src="img/svg/rightArrow.svg" alt="" class="navgo" />
+        <app/public/img src="app/public/img/svg/rightArrow.svg" alt="" class="navgo" />
         <!-- ------ offer 1 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/beYou.jpg" alt="" />
+          <app/public/img src="app/public/img/books/beYou.jpg" alt="" />
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
           <p class="title">كن انت (كتاب الكتروني)</p>
@@ -592,18 +585,18 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
         </div>
 
         <!-- ------ offer 2 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/fullSelfTrust.jpg" alt="" />
+          <app/public/img src="app/public/img/books/fullSelfTrust.jpg" alt="" />
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
           <p class="title">الثقة التامة بالنفس (كتاب الكتروني)</p>
@@ -613,9 +606,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           </div>
           <p class="other"></p>
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -623,10 +616,10 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
         <!-- ------ offer 3 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/karmaDiagnosis.jpg" alt="" />
+          <app/public/img src="app/public/img/books/karmaDiagnosis.jpg" alt="" />
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -640,19 +633,19 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
         </div>
 
         <!-- ------ offer 4 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/realConfidence.jpg" alt="" />
+          <app/public/img src="app/public/img/books/realConfidence.jpg" alt="" />
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -666,19 +659,19 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
         </div>
 
         <!-- ------ offer 5 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/yourNewSelf.jpg" alt="" />
+          <app/public/img src="app/public/img/books/yourNewSelf.jpg" alt="" />
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -691,12 +684,12 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
 
           <p class="other"></p>
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
         </div>
-        <img src="img/svg/rightArrow.svg" style="transform: rotateY(180deg)" alt="" class="navgo" />
+        <app/public/img src="app/public/img/svg/rightArrow.svg" style="transform: rotateY(180deg)" alt="" class="navgo" />
       </div>
 
     </div>
@@ -705,17 +698,17 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
     <div class="current-offers">
       <div class="head">
         <p>الكتب السياسية</p>
-        <a href="pages/category.html">عرض الكل</a>
+        <a href="/category">عرض الكل</a>
       </div>
 
       <div class="offers">
-        <img src="img/svg/rightArrow.svg" alt="" class="navgo" />
+        <app/public/img src="app/public/img/svg/rightArrow.svg" alt="" class="navgo" />
         <!-- ------ offer 1 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/beYou.jpg" alt="" />
+          <app/public/img src="app/public/img/books/beYou.jpg" alt="" />
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
           <p class="title">كن انت (كتاب الكتروني)</p>
@@ -727,18 +720,18 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
         </div>
 
         <!-- ------ offer 2 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/fullSelfTrust.jpg" alt="" />
+          <app/public/img src="app/public/img/books/fullSelfTrust.jpg" alt="" />
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
           <p class="title">الثقة التامة بالنفس (كتاب الكتروني)</p>
@@ -748,9 +741,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           </div>
           <p class="other"></p>
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -758,10 +751,10 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
         <!-- ------ offer 3 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/karmaDiagnosis.jpg" alt="" />
+          <app/public/img src="app/public/img/books/karmaDiagnosis.jpg" alt="" />
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -775,19 +768,19 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
         </div>
 
         <!-- ------ offer 4 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/realConfidence.jpg" alt="" />
+          <app/public/img src="app/public/img/books/realConfidence.jpg" alt="" />
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -801,19 +794,19 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
         </div>
 
         <!-- ------ offer 5 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/yourNewSelf.jpg" alt="" />
+          <app/public/img src="app/public/img/books/yourNewSelf.jpg" alt="" />
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -826,13 +819,13 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
 
           <p class="other"></p>
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
-        <img src="img/svg/rightArrow.svg" style="transform: rotateY(180deg)" alt="" class="navgo" />
+        <app/public/img src="app/public/img/svg/rightArrow.svg" style="transform: rotateY(180deg)" alt="" class="navgo" />
       </div>
 
 
@@ -842,17 +835,17 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
     <div class="current-offers">
       <div class="head">
         <p>الكتب اللإقتصادية</p>
-        <a href="pages/category.html">عرض الكل</a>
+        <a href="/category">عرض الكل</a>
       </div>
 
       <div class="offers">
-        <img src="img/svg/rightArrow.svg" alt="" class="navgo" />
+        <app/public/img src="app/public/img/svg/rightArrow.svg" alt="" class="navgo" />
         <!-- ------ offer 1 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/beYou.jpg" alt="" />
+          <app/public/img src="app/public/img/books/beYou.jpg" alt="" />
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
           <p class="title">كن انت (كتاب الكتروني)</p>
@@ -864,9 +857,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -874,9 +867,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
         <!-- ------ offer 2 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/fullSelfTrust.jpg" alt="" />
+          <app/public/img src="app/public/img/books/fullSelfTrust.jpg" alt="" />
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
           <p class="title">الثقة التامة بالنفس (كتاب الكتروني)</p>
@@ -886,9 +879,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           </div>
           <p class="other"></p>
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -896,10 +889,10 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
         <!-- ------ offer 3 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/karmaDiagnosis.jpg" alt="" />
+          <app/public/img src="app/public/img/books/karmaDiagnosis.jpg" alt="" />
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -913,9 +906,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -923,10 +916,10 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
         <!-- ------ offer 4 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/realConfidence.jpg" alt="" />
+          <app/public/img src="app/public/img/books/realConfidence.jpg" alt="" />
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -940,9 +933,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -950,10 +943,10 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
         <!-- ------ offer 5 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/yourNewSelf.jpg" alt="" />
+          <app/public/img src="app/public/img/books/yourNewSelf.jpg" alt="" />
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -966,13 +959,13 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
 
           <p class="other"></p>
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
-        <img src="img/svg/rightArrow.svg" style="transform: rotateY(180deg)" alt="" class="navgo" />
+        <app/public/img src="app/public/img/svg/rightArrow.svg" style="transform: rotateY(180deg)" alt="" class="navgo" />
       </div>
 
     </div>
@@ -981,17 +974,17 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
     <div class="current-offers">
       <div class="head">
         <p>كتب الطبخ</p>
-        <a href="pages/category.html">عرض الكل</a>
+        <a href="/category">عرض الكل</a>
       </div>
 
       <div class="offers">
-        <img src="img/svg/rightArrow.svg" alt="" class="navgo" />
+        <app/public/img src="app/public/img/svg/rightArrow.svg" alt="" class="navgo" />
         <!-- ------ offer 1 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/beYou.jpg" alt="" />
+          <app/public/img src="app/public/img/books/beYou.jpg" alt="" />
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
           <p class="title">كن انت (كتاب الكتروني)</p>
@@ -1003,9 +996,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -1013,9 +1006,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
         <!-- ------ offer 2 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/fullSelfTrust.jpg" alt="" />
+          <app/public/img src="app/public/img/books/fullSelfTrust.jpg" alt="" />
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
           <p class="title">الثقة التامة بالنفس (كتاب الكتروني)</p>
@@ -1025,9 +1018,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           </div>
           <p class="other"></p>
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -1035,10 +1028,10 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
         <!-- ------ offer 3 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/karmaDiagnosis.jpg" alt="" />
+          <app/public/img src="app/public/img/books/karmaDiagnosis.jpg" alt="" />
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -1052,9 +1045,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -1062,10 +1055,10 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
         <!-- ------ offer 4 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/realConfidence.jpg" alt="" />
+          <app/public/img src="app/public/img/books/realConfidence.jpg" alt="" />
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -1079,9 +1072,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -1089,10 +1082,10 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
         <!-- ------ offer 5 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/yourNewSelf.jpg" alt="" />
+          <app/public/img src="app/public/img/books/yourNewSelf.jpg" alt="" />
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -1105,13 +1098,13 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
 
           <p class="other"></p>
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
-        <img src="img/svg/rightArrow.svg" style="transform: rotateY(180deg)" alt="" class="navgo" />
+        <app/public/img src="app/public/img/svg/rightArrow.svg" style="transform: rotateY(180deg)" alt="" class="navgo" />
       </div>
 
     </div>
@@ -1120,17 +1113,17 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
     <div class="current-offers">
       <div class="head">
         <p>أفضل الروايات الرومانسية</p>
-        <a href="pages/category.html">عرض الكل</a>
+        <a href="/category">عرض الكل</a>
       </div>
 
       <div class="offers">
-        <img src="img/svg/rightArrow.svg" alt="" class="navgo" />
+        <app/public/img src="app/public/img/svg/rightArrow.svg" alt="" class="navgo" />
         <!-- ------ offer 1 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/beYou.jpg" alt="" />
+          <app/public/img src="app/public/img/books/beYou.jpg" alt="" />
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
           <p class="title">كن انت (كتاب الكتروني)</p>
@@ -1142,9 +1135,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -1152,9 +1145,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
         <!-- ------ offer 2 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/fullSelfTrust.jpg" alt="" />
+          <app/public/img src="app/public/img/books/fullSelfTrust.jpg" alt="" />
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
           <p class="title">الثقة التامة بالنفس (كتاب الكتروني)</p>
@@ -1164,9 +1157,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           </div>
           <p class="other"></p>
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -1174,10 +1167,10 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
         <!-- ------ offer 3 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/karmaDiagnosis.jpg" alt="" />
+          <app/public/img src="app/public/img/books/karmaDiagnosis.jpg" alt="" />
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -1191,9 +1184,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -1201,10 +1194,10 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
         <!-- ------ offer 4 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/realConfidence.jpg" alt="" />
+          <app/public/img src="app/public/img/books/realConfidence.jpg" alt="" />
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -1218,9 +1211,9 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <p class="other"></p>
 
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -1228,10 +1221,10 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
         <!-- ------ offer 5 ------ -->
         <div class="offer">
           <!-- -->
-          <img src="img/books/yourNewSelf.jpg" alt="" />
+          <app/public/img src="app/public/img/books/yourNewSelf.jpg" alt="" />
 
           <div class="type">
-            <img src="img/svg/bookRed.svg" alt="" />
+            <app/public/img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -1244,13 +1237,13 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
 
           <p class="other"></p>
           <div class="options">
-            <img src="img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="img/svg/inverseDirectionArrows.svg" alt="" />
+            <app/public/img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <app/public/img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <app/public/img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
-        <img src="img/svg/rightArrow.svg" style="transform: rotateY(180deg)" alt="" class="navgo" />
+        <app/public/img src="app/public/img/svg/rightArrow.svg" style="transform: rotateY(180deg)" alt="" class="navgo" />
       </div>
 
     </div>
@@ -1269,13 +1262,13 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
           <h4>تواصل معنا</h4>
           <div class="share">
             <a href="#">
-              <img src="img/svg/svgexport-58.svg" class="shar_icon" /></a>
-            <a href="#"><img src="img/svg/svgexport-59.svg" class="shar_icon" /></a>
-            <a href="#"><img src="img/svg/svgexport-60.svg" class="shar_icon" /></a>
-            <a href="#"><img src="img/svg/svgexport-61.svg" class="shar_icon" /></a>
-            <a href="#"><img src="img/svg/svgexport-62.svg" class="shar_icon" /></a>
-            <a href="#"><img src="img/svg/svgexport-63.svg" class="shar_icon" /></a>
-            <a href="#"><img src="img/svg/svgexport-64.svg" class="shar_icon" /></a>
+              <app/public/img src="app/public/img/svg/svgexport-58.svg" class="shar_icon" /></a>
+            <a href="#"><app/public/img src="app/public/img/svg/svgexport-59.svg" class="shar_icon" /></a>
+            <a href="#"><app/public/img src="app/public/img/svg/svgexport-60.svg" class="shar_icon" /></a>
+            <a href="#"><app/public/img src="app/public/img/svg/svgexport-61.svg" class="shar_icon" /></a>
+            <a href="#"><app/public/img src="app/public/img/svg/svgexport-62.svg" class="shar_icon" /></a>
+            <a href="#"><app/public/img src="app/public/img/svg/svgexport-63.svg" class="shar_icon" /></a>
+            <a href="#"><app/public/img src="app/public/img/svg/svgexport-64.svg" class="shar_icon" /></a>
           </div>
         </div>
       </div>
@@ -1328,13 +1321,13 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
         </p>
       </div>
       <div class="brands">
-        <a href="#"><img src="img/svg/svgexport-65.svg" /></a>
-        <a href="#"><img src="img/svg/svgexport-66.svg" /></a>
-        <a href="#"><img src="img/svg/svgexport-67.svg" /></a>
-        <a href="#"><img src="img/svg/svgexport-68.svg" /></a>
-        <a href="#"><img src="img/svg/svgexport-69.svg" /></a>
-        <a href="#"><img src="img/svg/svgexport-70.svg" /></a>
-        <!-- <img src="img/payment.png" alt="payment image" /> -->
+        <a href="#"><app/public/img src="app/public/img/svg/svgexport-65.svg" /></a>
+        <a href="#"><app/public/img src="app/public/img/svg/svgexport-66.svg" /></a>
+        <a href="#"><app/public/img src="app/public/img/svg/svgexport-67.svg" /></a>
+        <a href="#"><app/public/img src="app/public/img/svg/svgexport-68.svg" /></a>
+        <a href="#"><app/public/img src="app/public/img/svg/svgexport-69.svg" /></a>
+        <a href="#"><app/public/img src="app/public/img/svg/svgexport-70.svg" /></a>
+        <!-- <app/public/img src="app/public/img/payment.png" alt="payment image" /> -->
       </div>
     </div>
   </footer>

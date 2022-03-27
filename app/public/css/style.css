@@ -210,7 +210,7 @@ section {
   border-right: none;
 }
 
-.header .navbar a img {}
+.header .navbar a app/public/img {}
 /* signUp */
 /* ////////////sign up /////////////////*/
 
@@ -242,7 +242,7 @@ select {
   float: left;
 }
 
-select img {
+select app/public/img {
   width: 20px;
   height: 20px;
   position: relative;
@@ -252,7 +252,7 @@ select img {
   padding: 10px;
 }
 
-.container2 img {
+.container2 app/public/img {
   width: 10px;
   height: 10px;
 }
@@ -571,7 +571,7 @@ body {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-.slide img{
+.slide app/public/img{
   object-fit: contain;
   overflow: hidden;
   width: 100%;
@@ -829,7 +829,7 @@ text-align: end;
   width: 4rem;
   border-radius: 5px;
 }
-.footer .credit .brands a img{
+.footer .credit .brands a app/public/img{
   height:2.5rem;
   width: 4rem;
 }

@@ -19,11 +19,11 @@ window.onclick = function(event) {
 // show image in home
 // var modal2 = document.getElementById("myModal");
 
-// var modalImg = document.getElementById("img01");
+// var modalapp/public/img = document.getElementById("app/public/img01");
 // var captionText = document.getElementById("caption");
 // function image(event)  {    
 //   modal2.style.display = "block";
-//     modalImg.src = event.target.src;
+//     modalapp/public/img.src = event.target.src;
 //     captionText.innerHTML = event.target.alt;
 // }
 

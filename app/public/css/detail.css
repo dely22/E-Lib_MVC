@@ -46,7 +46,7 @@ nav a {
     padding-bottom: 0;
 }
 
-.slido img {
+.slido app/public/img {
     width: 8rem;
     height: 8rem;
     border: 1px solid var(--border);
@@ -252,7 +252,7 @@ hr {
 
     }
 
-    .bookImgSlides {
+    .bookapp/public/imgSlides {
     display: none;
     }
 
@@ -280,14 +280,14 @@ hr {
     .rightslid:hover, .leftslid:hover{
     color: blue;
     }
-    .imgslid{
+    .app/public/imgslid{
     position: relative;
     top:5rem;
     display: flex;
     justify-content: center; 
 
     }
-    .imgslid img{
+    .app/public/imgslid app/public/img{
     width: 50px;
     height: 55px;
     position: relative;
@@ -296,10 +296,10 @@ hr {
     margin-left: 10px;
 
     }
-    /* .imgslid img:first-child{
+    /* .app/public/imgslid app/public/img:first-child{
     margin-left: 0;
     } */
-    .imghover:hover{
+    .app/public/imghover:hover{
     border: 1px solid blue;
     cursor: pointer;
     }

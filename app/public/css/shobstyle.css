@@ -31,7 +31,7 @@
         padding-inline-start: 5rem;
         
     }
-    .check .titel img{
+    .check .titel app/public/img{
         position: relative;
         top: 22px;
         display: inline;
@@ -71,7 +71,7 @@
         height: 50%;
     }
    
-    .row-tit img{
+    .row-tit app/public/img{
         width: 25px;
 
     }
@@ -109,7 +109,7 @@
         color: var(--title);
         padding-block-end:0 ;
     }
-    .row-tit .tito img{
+    .row-tit .tito app/public/img{
         position: relative;
         top:15px;
         width: 30px;

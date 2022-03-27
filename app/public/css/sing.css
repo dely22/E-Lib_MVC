@@ -16,7 +16,7 @@
   .sing > button:hover {
     background-color: #d4050b;
   }
-  .sing img {
+  .sing app/public/img {
     max-width: 100%;
   } */
 
@@ -162,7 +162,7 @@
     font-size: 0.9rem;
     margin: auto;
   }
-  .singup p.sing img {
+  .singup p.sing app/public/img {
     width: 11px;
     position: relative;
     top: 2px;

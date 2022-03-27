@@ -19,7 +19,7 @@
     margin-bottom: 2.2rem;
     margin-inline-start: 3rem;
 }
-  .typ-container img, .navgo{
+  .typ-container app/public/img, .navgo{
     width: 20px;
     cursor: pointer;
   }
@@ -35,7 +35,7 @@
     border-radius: 4px;
     font-weight: bold;
   }
-  .section img {
+  .section app/public/img {
     width: 50px;
     height: 50px;
     margin-top: 10px;
@@ -53,14 +53,14 @@
     padding: 0 1rem;
     flex-wrap: wrap;
   }
-  .galary .box img{
+  .galary .box app/public/img{
     width: 36rem;
     padding: 1rem;
     margin: .3rem;
     height: 13rem;
 
   }
-  .galary  img{
+  .galary  app/public/img{
     width: 97%;
     height: 15rem;
 
@@ -111,7 +111,7 @@
     font-weight: bold;
 
  }
-  .current-offers .offer >img {
+  .current-offers .offer >app/public/img {
     width: 210px;
     height: 220px;
   }
@@ -158,11 +158,11 @@
     justify-content: space-around;
     margin-bottom: 10px;;
   }
-  .current-offers .options img:not(:nth-child(2)){
+  .current-offers .options app/public/img:not(:nth-child(2)){
     width: 25px;
     margin: 0 .4rem;
   }
-  .current-offers .options img:nth-child(2){
+  .current-offers .options app/public/img:nth-child(2){
     width: 45px;
   }
 
@@ -176,13 +176,13 @@
     margin: 0;
     padding: 0;
   }
-  .galary .box img{
+  .galary .box app/public/img{
     width: 100%;
     margin: 0;
     padding: 0.8rem 0;
 
   }
-  .galary  img{
+  .galary  app/public/img{
     width: 100%;
   }
   .current-offers .offer{
@@ -197,7 +197,7 @@
       flex-direction: column;
       width: 100%;
     }
-    .galary img,.galary .box img {
+    .galary app/public/img,.galary .box app/public/img {
       width: 100%;
     }
     .offers,   .typ-container{

@@ -1,5 +1,6 @@
 <?php
 
+namespace App\Controllers;
 class Controller {
     public function model($model_name){
         require_once 'app/models/'.$model_name.'.php';
@@ -13,5 +14,3 @@ class Controller {
 
     }
 }
-
-?>

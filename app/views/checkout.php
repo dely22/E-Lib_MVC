@@ -15,7 +15,7 @@
     <section class="check">
 
         <div class="titel">
-            <img src="../img/svg/cart.svg" />
+            <app /public/img src="../app/public/img/svg/cart.svg" />
             <h3>السلة<sub>(3 منتجات)</sub></h3>
         </div>
 
@@ -25,8 +25,8 @@
                     <div class="data">
                         <div class="row-tit">
                             <div class="tito">
-                                <img src="../img/books/karmaDiagnosis.jpg">
-                                <h3>البداية والنهاية الجز الأول (كتاب إلكتروني)</h3>
+                                <app /public/img src="../app/public/img/books/karmaDiagnosis.jpg">
+                                    <h3>البداية والنهاية الجز الأول (كتاب إلكتروني)</h3>
                             </div>
                             <i>منتج قابل للخصم لحاملي بطاقة خصم مكتبة جرير</i>
 
@@ -57,8 +57,8 @@
                     <div class="data">
                         <div class="row-tit">
                             <div class="tito">
-                                <img src="../img/books/karmaDiagnosis.jpg">
-                                <h3>البداية والنهاية الجز الأول (كتاب إلكتروني)</h3>
+                                <app /public/img src="../app/public/img/books/karmaDiagnosis.jpg">
+                                    <h3>البداية والنهاية الجز الأول (كتاب إلكتروني)</h3>
                             </div>
                             <i>منتج قابل للخصم لحاملي بطاقة خصم مكتبة جرير</i>
 
@@ -89,8 +89,8 @@
                     <div class="data">
                         <div class="row-tit">
                             <div class="tito">
-                                <img src="../img/books/karmaDiagnosis.jpg">
-                                <h3>البداية والنهاية الجز الأول (كتاب إلكتروني)</h3>
+                                <app /public/img src="../app/public/img/books/karmaDiagnosis.jpg">
+                                    <h3>البداية والنهاية الجز الأول (كتاب إلكتروني)</h3>
                             </div>
                             <i>منتج قابل للخصم لحاملي بطاقة خصم مكتبة جرير</i>
 
